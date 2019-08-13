@@ -1,0 +1,37 @@
+---
+language: "python"
+python:
+  - "3.7"
+cache: pip
+install:
+  - pip install -r requirements.txt
+script:
+  - |
+    if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]]; then
+      # Configure git
+      git config --global user.email "travis@travis.com"
+      git config --global user.name "Travis CI"
+      git remote add upstream https://${GH_TOKEN}@github.com/stevemar/spog.git
+
+      # Pull new data
+      python generate_data.py
+
+      # Only do these steps if something has changed, ignore untracked files
+      if [ -z "$(git status --porcelain -uno)" ]; then
+        # Working directory clean
+        echo "Nothing to commit"
+        exit 0
+      else
+        # Uncommitted changes
+        git add *.yaml
+        # Regenerate HTML
+        ./render.sh
+        git add *.html
+        git commit --message "Update data (Travis build #$TRAVIS_BUILD_NUMBER)"
+      fi
+    fi
+  - ./test.sh
+  - |
+    if [[ "$TRAVIS_EVENT_TYPE" == "cron" ]]; then
+      git push upstream HEAD:master
+    fi

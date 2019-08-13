@@ -1,0 +1,7 @@
+bugs:
+- assigned_to: stevemar
+  description: longer description
+  number: 6
+  reporter: stevemar
+  severity: high
+  title: popen() breaks install

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SPOG</title>
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Normalize.css -->
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+
+        <!-- DataTables -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#stats').DataTable( {"pageLength": 100} );
+            });
+        </script>
+        <style>
+            .icon {
+                height: 22px;
+                margin-top: -2px;
+            }
+            .icon.green,
+            .icon.red {
+                font-size: 22px;
+                line-height: 20px;
+            }
+            .icon.green,
+            .icon.green a {
+                color: darkgreen;
+            }
+            .icon.red,
+            .icon.red a {
+                color: darkred;
+            }
+            .icon.black,
+            .icon.black a {
+                color: black;
+            }
+            .tooltip-inner {
+                white-space:pre-wrap;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://github.ibm.com/stevemar/spog">SPOG</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Bugs</a></li>
+                <li class="active"><a href="#">Baseball Stats</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <table id="stats" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Average</th>
+                                <th>Hits</th>
+                                <th>HRs</th>
+                                <th>RBIs</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                                <tr>
+                                    <td>
+                                        0.45
+                                    </td>
+                                    <td>
+                                        13
+                                    </td>
+                                    <td>
+                                        4
+                                    </td>
+                                    <td>
+                                        15
+                                    </td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
