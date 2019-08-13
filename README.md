@@ -9,7 +9,7 @@ This repo contains a way to visualize the data in a browser.
 
 ## Viewing the data in your browser
 
-* **[https://pages.github.com/stevemar/spog/](https://pages.github.com/stevemar/spog/)**: An online representation of the data.
+* **[https://stevemar.github.io/spog/](https://stevemar.github.io/spog/)**: An online representation of the data.
 
 ## How's it work?
 
