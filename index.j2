@@ -69,7 +69,7 @@
                         <thead>
                             <tr>
                                 <th>Number</th>
-                                <th>Description</th>
+                                <th>Title</th>
                                 <th>Severity</th>
                                 <th>Reporter</th>
                                 <th>Assigned to</th>
@@ -81,16 +81,18 @@
                                     <td>
                                         {{ bug['number'] }}
                                     </td>
-                                    <td title="{{ bug['description'] if bug['description'] else '' }}">
+                                    <td>
                                         {{ bug['title'] }}
                                     </td>
                                     <td>
-                                        {% if bug['severity'] == 'high' %}
+                                        {% if bug['severity'] == 'critical' %}
                                             <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
                                             <span style="display: none; visibility: hidden;">0</span>
+                                            {{ bug['severity'] }}
                                         {% else %}
                                             <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
                                             <span style="display: none; visibility: hidden;">1</span>
+                                            {{ bug['severity'] }}
                                         {% endif %}
                                     </td>
                                     <td>{{ bug['reporter'] }}</td>
