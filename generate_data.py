@@ -14,7 +14,7 @@ import random
 import yaml
 
 BUG_SEVERITY = ['critical', 'high', 'medium', 'low']
-BUG_USERNAMES = ['dolphm', 'stevemar', 'cmurphy', 'mdrnstm', 'jheck', 'lbragtad']
+BUG_USERNAMES = ['dolphm', 'stevemar', 'cmurphy', 'mdrnstm', 'lbragtad']
 BUG_DESCRIPTIONS = [
     'cannot use trusts with federated users',
     'Keystone ldap tree_dn does not support Chinese',
@@ -25,23 +25,23 @@ BUG_DESCRIPTIONS = [
     'The v3 role API should account for different scopes',
     '[rfe] Renewable Application Credentials',
     'Self-service policies for credential APIs are broken in stable/rocky',
-    'Zero-downtime upgrades lead to spurious token validation failures when caching is enabled',
+    'Zero-downtime upgrades lead to token validation failures',
     'keystone (stein), python3, and postgresql: hex in database',
     'Logs filled with unnecessary policy deprecation warnings',
-    'able to validate a Fernet token with garbage at the end (cryptography limitation)',
+    'able to validate a Fernet token with garbage at the end',
     'RFE: keystone-manage CLI to allow using syslog & specific log files',
     'oauth login silently ignores scope',
     'Forbid invalid operations in expand, migrate, and contract repositories',
-    'policy.v3cloudsample.json does not allow domain admin list role assignments on project',
+    'policy.v3cloudsample.json does not allow domain admin role assignments',
     'RFE: Whitelisting (opt-in) users/projects/domains for PCI compliance',
     'Moving/disabling LDAP users break Keystone queries depending on role ID',
-    'Mapping a federated user to a local user does not return concrete role assignments',
+    'Mapping a federated user to a user does not return role assignments',
     'Dependency between subsystems at the DB layer',
-    'Create OAUTH request token gives 401 error when request url is admin endpoint',
+    'Create OAUTH request token gives 401 error with admin endpoint',
     '/v3/users is unproportionally slow',
     'policy cloudsample checks on is_admin_project',
     'Lack of documentation for role inheritance',
-    'system scope does not work for the service which use project specified endpoint',
+    'system scope does not work for the service which use project endpoint',
     'keystone tests fail scope checking',
     'Upgrade procedure performance issues',
     'keystone-manage db_sync fails with MariaDB 10.3',
@@ -52,7 +52,7 @@ BUG_DESCRIPTIONS = [
     'keystone upgrade fails q->r oslo.log requirement to low',
     'Upgrade to Ocata: Keystone Intermittent Missing options Key',
     'Federation Protocol saml2 fails on Rocky',
-    'Keystone as a SAML IdP does not work when mod_auth_mellon is used as the SP',
+    'Keystone as a SAML IdP does not work when mod_auth_mellon is SP',
     'cache guide is out of date',
     'Policy names need to be updated for consistency'
 ]
