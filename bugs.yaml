@@ -1,208 +1,334 @@
 bugs:
-- assigned_to: cmurphy
-  number: 295
-  reporter: mdrnstm
-  severity: medium
-  title: policy.v3cloudsample.json does not allow domain admin
-    role assignments
-- assigned_to: cmurphy
-  number: 738
-  reporter: lbragtad
-  severity: low
-  title: 'RFE: keystone-manage CLI to allow using syslog & specific
-    log files'
-- assigned_to: stevemar
-  number: 609
-  reporter: dolphm
-  severity: high
-  title: Lack of documentation for role inheritance
-- assigned_to: cmurphy
-  number: 796
-  reporter: lbragtad
-  severity: low
-  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
-    Key'
 - assigned_to: mdrnstm
-  number: 286
-  reporter: cmurphy
-  severity: low
-  title: Logs filled with unnecessary policy deprecation warnings
-- assigned_to: dolphm
-  number: 243
-  reporter: mdrnstm
-  severity: low
-  title: Dependency between subsystems at the DB layer
-- assigned_to: mdrnstm
-  number: 665
-  reporter: dolphm
-  severity: high
-  title: Policy names need to be updated for consistency
-- assigned_to: dolphm
-  number: 491
-  reporter: mdrnstm
-  severity: low
-  title: Lack of documentation for role inheritance
-- assigned_to: dolphm
-  number: 884
+  number: 71
   reporter: stevemar
-  severity: low
-  title: cannot use trusts with federated users
-- assigned_to: cmurphy
-  number: 92
-  reporter: cmurphy
-  severity: low
+  severity: medium
   title: Self-service policies for credential APIs are broken
     in stable/rocky
-- assigned_to: mdrnstm
-  number: 370
-  reporter: lbragtad
-  severity: medium
-  title: keystone-manage db_sync fails with MariaDB 10.3
-- assigned_to: cmurphy
-  number: 46
-  reporter: lbragtad
+- assigned_to: dolphm
+  number: 935
+  reporter: cmurphy
   severity: high
-  title: oauth login silently ignores scope
-- assigned_to: lbragtad
-  number: 838
-  reporter: dolphm
-  severity: critical
-  title: The v3 grant API should account for different scopes
+  title: keystone tests fail scope checking
 - assigned_to: mdrnstm
   number: 750
-  reporter: dolphm
-  severity: low
-  title: keystone-manage db_sync fails with MariaDB 10.3
-- assigned_to: mdrnstm
-  number: 501
-  reporter: dolphm
-  severity: high
-  title: Keystone as a SAML IdP does not work when mod_auth_mellon
-    is SP
-- assigned_to: dolphm
-  number: 139
-  reporter: lbragtad
-  severity: low
-  title: system scope does not work for the service which use
-    project endpoint
-- assigned_to: dolphm
-  number: 257
-  reporter: dolphm
-  severity: critical
-  title: Self-service policies for credential APIs are broken
-    in stable/rocky
-- assigned_to: lbragtad
-  number: 240
-  reporter: dolphm
-  severity: critical
-  title: Policy names need to be updated for consistency
-- assigned_to: mdrnstm
-  number: 76
-  reporter: dolphm
-  severity: low
-  title: cache guide is out of date
-- assigned_to: dolphm
-  number: 952
-  reporter: stevemar
-  severity: critical
-  title: able to validate a Fernet token with garbage at the end
-- assigned_to: lbragtad
-  number: 494
-  reporter: lbragtad
-  severity: critical
-  title: Lack of documentation for role inheritance
-- assigned_to: dolphm
-  number: 14
-  reporter: cmurphy
-  severity: critical
-  title: The ec2 credential API should account for different scopes
-- assigned_to: dolphm
-  number: 503
-  reporter: stevemar
-  severity: critical
-  title: Moving/disabling LDAP users break Keystone queries depending
-    on role ID
-- assigned_to: dolphm
-  number: 252
   reporter: mdrnstm
   severity: critical
-  title: User cannot list their own trusts
+  title: 'keystone (stein), python3, and postgresql: hex in database'
 - assigned_to: lbragtad
-  number: 646
-  reporter: cmurphy
-  severity: medium
-  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
-    Key'
-- assigned_to: lbragtad
-  number: 8
-  reporter: stevemar
-  severity: critical
-  title: keystone upgrade fails q->r oslo.log requirement to low
-- assigned_to: cmurphy
-  number: 688
-  reporter: lbragtad
-  severity: high
-  title: keystone-manage db_sync fails with MariaDB 10.3
-- assigned_to: lbragtad
-  number: 659
-  reporter: lbragtad
-  severity: high
-  title: /v3/users is unproportionally slow
-- assigned_to: stevemar
-  number: 725
+  number: 330
   reporter: dolphm
-  severity: medium
+  severity: high
   title: 'RFE: Whitelisting (opt-in) users/projects/domains for
     PCI compliance'
 - assigned_to: dolphm
-  number: 118
+  number: 81
+  reporter: stevemar
+  severity: low
+  title: oauth login silently ignores scope
+- assigned_to: stevemar
+  number: 22
+  reporter: stevemar
+  severity: high
+  title: Lack of documentation for role inheritance
+- assigned_to: stevemar
+  number: 52
+  reporter: dolphm
+  severity: high
+  title: Create OAUTH request token gives 401 error with admin
+    endpoint
+- assigned_to: mdrnstm
+  number: 493
+  reporter: lbragtad
+  severity: low
+  title: Lack of documentation for role inheritance
+- assigned_to: stevemar
+  number: 219
+  reporter: lbragtad
+  severity: low
+  title: Moving/disabling LDAP users break Keystone queries depending
+    on role ID
+- assigned_to: stevemar
+  number: 783
   reporter: mdrnstm
   severity: high
-  title: Dependency between subsystems at the DB layer
-- assigned_to: dolphm
-  number: 585
+  title: policy.v3cloudsample.json does not allow domain admin
+    role assignments
+- assigned_to: mdrnstm
+  number: 132
   reporter: mdrnstm
+  severity: critical
+  title: Keystone as a SAML IdP does not work when mod_auth_mellon
+    is SP
+- assigned_to: lbragtad
+  number: 906
+  reporter: dolphm
   severity: medium
-  title: Logs filled with unnecessary policy deprecation warnings
+  title: The ec2 credential API should account for different scopes
 - assigned_to: mdrnstm
-  number: 723
-  reporter: lbragtad
-  severity: critical
-  title: Enhance PCI-DSS compliance documentation
-- assigned_to: dolphm
-  number: 922
+  number: 569
   reporter: cmurphy
-  severity: critical
-  title: Upgrade procedure performance issues
-- assigned_to: mdrnstm
-  number: 514
+  severity: medium
+  title: Dependency between subsystems at the DB layer
+- assigned_to: cmurphy
+  number: 977
+  reporter: dolphm
+  severity: high
+  title: Dependency between subsystems at the DB layer
+- assigned_to: lbragtad
+  number: 293
   reporter: dolphm
   severity: critical
-  title: Zero-downtime upgrades lead to token validation failures
-- assigned_to: cmurphy
-  number: 52
-  reporter: cmurphy
-  severity: medium
-  title: Self-service policies for credential APIs are broken
-    in stable/rocky
+  title: cannot use trusts with federated users
 - assigned_to: mdrnstm
-  number: 674
-  reporter: mdrnstm
+  number: 562
+  reporter: cmurphy
+  severity: low
+  title: Zero-downtime upgrades lead to token validation failures
+- assigned_to: dolphm
+  number: 32
+  reporter: stevemar
   severity: critical
+  title: Federation Protocol saml2 fails on Rocky
+- assigned_to: mdrnstm
+  number: 224
+  reporter: dolphm
+  severity: high
+  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
+    Key'
+- assigned_to: cmurphy
+  number: 57
+  reporter: stevemar
+  severity: critical
+  title: system scope does not work for the service which use
+    project endpoint
+- assigned_to: lbragtad
+  number: 339
+  reporter: mdrnstm
+  severity: high
+  title: cannot use trusts with federated users
+- assigned_to: lbragtad
+  number: 417
+  reporter: stevemar
+  severity: high
+  title: policy cloudsample checks on is_admin_project
+- assigned_to: cmurphy
+  number: 762
+  reporter: mdrnstm
+  severity: high
+  title: Keystone ldap tree_dn does not support Chinese
+- assigned_to: stevemar
+  number: 136
+  reporter: dolphm
+  severity: medium
+  title: Upgrade procedure performance issues
+- assigned_to: dolphm
+  number: 371
+  reporter: dolphm
+  severity: medium
+  title: Logs filled with unnecessary policy deprecation warnings
+- assigned_to: dolphm
+  number: 757
+  reporter: stevemar
+  severity: critical
+  title: Unable to remove an assignment from domain and project
+- assigned_to: dolphm
+  number: 196
+  reporter: dolphm
+  severity: low
+  title: Federation Protocol saml2 fails on Rocky
+- assigned_to: cmurphy
+  number: 956
+  reporter: cmurphy
+  severity: low
+  title: system scope does not work for the service which use
+    project endpoint
+- assigned_to: mdrnstm
+  number: 726
+  reporter: mdrnstm
+  severity: low
+  title: 'RFE: Whitelisting (opt-in) users/projects/domains for
+    PCI compliance'
+- assigned_to: lbragtad
+  number: 862
+  reporter: lbragtad
+  severity: medium
+  title: Lack of documentation for role inheritance
+- assigned_to: mdrnstm
+  number: 761
+  reporter: lbragtad
+  severity: critical
+  title: LDAP backend should support python-ldap trace logging
+- assigned_to: mdrnstm
+  number: 599
+  reporter: mdrnstm
+  severity: low
+  title: able to validate a Fernet token with garbage at the end
+- assigned_to: mdrnstm
+  number: 924
+  reporter: dolphm
+  severity: low
   title: Forbid invalid operations in expand, migrate, and contract
     repositories
 - assigned_to: mdrnstm
-  number: 798
-  reporter: lbragtad
+  number: 156
+  reporter: dolphm
   severity: high
-  title: Zero-downtime upgrades lead to token validation failures
-- assigned_to: stevemar
-  number: 648
-  reporter: lbragtad
+  title: policy cloudsample checks on is_admin_project
+- assigned_to: dolphm
+  number: 701
+  reporter: stevemar
+  severity: critical
+  title: Keystone ldap tree_dn does not support Chinese
+- assigned_to: dolphm
+  number: 585
+  reporter: cmurphy
   severity: low
   title: keystone-manage db_sync fails with MariaDB 10.3
+- assigned_to: stevemar
+  number: 771
+  reporter: stevemar
+  severity: high
+  title: policy.v3cloudsample.json does not allow domain admin
+    role assignments
+- assigned_to: dolphm
+  number: 996
+  reporter: lbragtad
+  severity: high
+  title: Unable to remove an assignment from domain and project
+- assigned_to: cmurphy
+  number: 1000
+  reporter: cmurphy
+  severity: critical
+  title: Moving/disabling LDAP users break Keystone queries depending
+    on role ID
+- assigned_to: cmurphy
+  number: 161
+  reporter: cmurphy
+  severity: critical
+  title: cache guide is out of date
+- assigned_to: mdrnstm
+  number: 686
+  reporter: lbragtad
+  severity: low
+  title: Forbid invalid operations in expand, migrate, and contract
+    repositories
+- assigned_to: cmurphy
+  number: 441
+  reporter: stevemar
+  severity: low
+  title: cache guide is out of date
+- assigned_to: dolphm
+  number: 597
+  reporter: stevemar
+  severity: low
+  title: Mapping a federated user to a user does not return role
+    assignments
 - assigned_to: lbragtad
-  number: 31
+  number: 687
+  reporter: mdrnstm
+  severity: low
+  title: able to validate a Fernet token with garbage at the end
+- assigned_to: stevemar
+  number: 311
+  reporter: cmurphy
+  severity: high
+  title: policy.v3cloudsample.json does not allow domain admin
+    role assignments
+- assigned_to: dolphm
+  number: 44
   reporter: lbragtad
   severity: medium
-  title: oauth login silently ignores scope
+  title: policy.v3cloudsample.json does not allow domain admin
+    role assignments
+- assigned_to: dolphm
+  number: 66
+  reporter: mdrnstm
+  severity: high
+  title: 'keystone (stein), python3, and postgresql: hex in database'
+- assigned_to: mdrnstm
+  number: 207
+  reporter: dolphm
+  severity: medium
+  title: system scope does not work for the service which use
+    project endpoint
+- assigned_to: stevemar
+  number: 200
+  reporter: mdrnstm
+  severity: medium
+  title: /v3/users is unproportionally slow
+- assigned_to: mdrnstm
+  number: 684
+  reporter: mdrnstm
+  severity: low
+  title: keystone upgrade fails q->r oslo.log requirement to low
+- assigned_to: cmurphy
+  number: 502
+  reporter: mdrnstm
+  severity: high
+  title: Lack of documentation for role permutations and possibilities
+- assigned_to: dolphm
+  number: 993
+  reporter: cmurphy
+  severity: low
+  title: /v3/users is unproportionally slow
+- assigned_to: cmurphy
+  number: 216
+  reporter: cmurphy
+  severity: high
+  title: Lack of documentation for role permutations and possibilities
+- assigned_to: stevemar
+  number: 8
+  reporter: mdrnstm
+  severity: critical
+  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
+    Key'
+- assigned_to: lbragtad
+  number: 875
+  reporter: stevemar
+  severity: high
+  title: Create OAUTH request token gives 401 error with admin
+    endpoint
+- assigned_to: lbragtad
+  number: 443
+  reporter: lbragtad
+  severity: low
+  title: The v3 role API should account for different scopes
+- assigned_to: mdrnstm
+  number: 847
+  reporter: mdrnstm
+  severity: high
+  title: keystone-manage db_sync fails with MariaDB 10.3
+- assigned_to: cmurphy
+  number: 827
+  reporter: lbragtad
+  severity: medium
+  title: Logs filled with unnecessary policy deprecation warnings
+- assigned_to: mdrnstm
+  number: 994
+  reporter: stevemar
+  severity: medium
+  title: Logs filled with unnecessary policy deprecation warnings
+- assigned_to: mdrnstm
+  number: 418
+  reporter: stevemar
+  severity: low
+  title: Federation Protocol saml2 fails on Rocky
+- assigned_to: mdrnstm
+  number: 154
+  reporter: stevemar
+  severity: low
+  title: Mapping a federated user to a user does not return role
+    assignments
+- assigned_to: mdrnstm
+  number: 784
+  reporter: mdrnstm
+  severity: medium
+  title: Create OAUTH request token gives 401 error with admin
+    endpoint
+- assigned_to: mdrnstm
+  number: 47
+  reporter: dolphm
+  severity: high
+  title: Forbid invalid operations in expand, migrate, and contract
+    repositories
