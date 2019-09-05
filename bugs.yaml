@@ -1,38 +1,45 @@
 bugs:
-- assigned_to: dolphm
-  number: 348
-  reporter: cmurphy
-  severity: high
-  title: Keystone ldap tree_dn does not support Chinese
 - assigned_to: cmurphy
-  number: 975
-  reporter: mdrnstm
-  severity: low
-  title: User cannot list their own trusts
-- assigned_to: mdrnstm
-  number: 612
+  number: 828
   reporter: lbragtad
-  severity: low
+  severity: medium
+  title: Mapping a federated user to a user does not return role
+    assignments
+- assigned_to: cmurphy
+  number: 500
+  reporter: dolphm
+  severity: medium
+  title: The ec2 credential API should account for different scopes
+- assigned_to: cmurphy
+  number: 286
+  reporter: dolphm
+  severity: high
+  title: system scope does not work for the service which use
+    project endpoint
+- assigned_to: dolphm
+  number: 376
+  reporter: stevemar
+  severity: medium
+  title: Keystone ldap tree_dn does not support Chinese
+- assigned_to: stevemar
+  number: 186
+  reporter: lbragtad
+  severity: medium
   title: Create OAUTH request token gives 401 error with admin
     endpoint
 - assigned_to: lbragtad
-  number: 860
-  reporter: dolphm
+  number: 59
+  reporter: mdrnstm
   severity: high
-  title: policy.v3cloudsample.json does not allow domain admin
-    role assignments
+  title: Upgrade procedure performance issues
 - assigned_to: stevemar
-  number: 904
-  reporter: lbragtad
-  severity: critical
-  title: Policy names need to be updated for consistency
-- assigned_to: dolphm
-  number: 569
-  reporter: cmurphy
+  number: 144
+  reporter: mdrnstm
   severity: medium
-  title: Unable to remove an assignment from domain and project
-- assigned_to: dolphm
-  number: 940
+  title: Self-service policies for credential APIs are broken
+    in stable/rocky
+- assigned_to: cmurphy
+  number: 156
   reporter: lbragtad
   severity: high
-  title: cache guide is out of date
+  title: '[rfe] Renewable Application Credentials'
