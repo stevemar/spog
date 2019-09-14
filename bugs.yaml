@@ -1,178 +1,63 @@
 bugs:
-- assigned_to: lbragtad
-  number: 369
-  reporter: lbragtad
-  severity: high
-  title: Mapping a federated user to a user does not return role
-    assignments
-- assigned_to: cmurphy
-  number: 92
-  reporter: mdrnstm
-  severity: medium
-  title: The v3 grant API should account for different scopes
-- assigned_to: mdrnstm
-  number: 339
-  reporter: dolphm
-  severity: low
-  title: policy.v3cloudsample.json does not allow domain admin
-    role assignments
 - assigned_to: dolphm
-  number: 28
-  reporter: stevemar
-  severity: medium
-  title: Lack of documentation for role inheritance
-- assigned_to: lbragtad
-  number: 93
+  number: 59
   reporter: lbragtad
   severity: low
-  title: The ec2 credential API should account for different scopes
-- assigned_to: lbragtad
-  number: 818
-  reporter: dolphm
-  severity: medium
-  title: keystone-manage db_sync fails with MariaDB 10.3
-- assigned_to: cmurphy
-  number: 630
-  reporter: stevemar
-  severity: low
-  title: Policy names need to be updated for consistency
-- assigned_to: stevemar
-  number: 171
-  reporter: cmurphy
-  severity: critical
-  title: Enhance PCI-DSS compliance documentation
-- assigned_to: dolphm
-  number: 762
-  reporter: cmurphy
-  severity: critical
-  title: Federation Protocol saml2 fails on Rocky
-- assigned_to: lbragtad
-  number: 522
-  reporter: mdrnstm
-  severity: critical
-  title: 'RFE: Whitelisting (opt-in) users/projects/domains for
-    PCI compliance'
-- assigned_to: cmurphy
-  number: 923
-  reporter: lbragtad
-  severity: medium
-  title: User cannot list their own trusts
-- assigned_to: cmurphy
-  number: 10
-  reporter: stevemar
-  severity: critical
-  title: LDAP backend should support python-ldap trace logging
-- assigned_to: lbragtad
-  number: 564
-  reporter: stevemar
-  severity: low
-  title: Upgrade procedure performance issues
-- assigned_to: mdrnstm
-  number: 406
-  reporter: mdrnstm
-  severity: low
-  title: policy.v3cloudsample.json does not allow domain admin
-    role assignments
-- assigned_to: dolphm
-  number: 995
-  reporter: cmurphy
-  severity: high
-  title: keystone-manage db_sync fails with MariaDB 10.3
-- assigned_to: dolphm
-  number: 340
-  reporter: lbragtad
-  severity: high
-  title: 'RFE: keystone-manage CLI to allow using syslog & specific
-    log files'
-- assigned_to: lbragtad
-  number: 232
-  reporter: dolphm
-  severity: medium
-  title: The v3 role API should account for different scopes
-- assigned_to: mdrnstm
-  number: 557
-  reporter: dolphm
-  severity: medium
-  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
-    Key'
-- assigned_to: mdrnstm
-  number: 990
-  reporter: lbragtad
-  severity: critical
-  title: Create OAUTH request token gives 401 error with admin
-    endpoint
-- assigned_to: mdrnstm
-  number: 851
-  reporter: mdrnstm
-  severity: critical
-  title: Keystone as a SAML IdP does not work when mod_auth_mellon
-    is SP
-- assigned_to: mdrnstm
-  number: 120
-  reporter: cmurphy
-  severity: low
-  title: oauth login silently ignores scope
-- assigned_to: dolphm
-  number: 853
-  reporter: cmurphy
-  severity: medium
-  title: keystone tests fail scope checking
-- assigned_to: cmurphy
-  number: 388
-  reporter: stevemar
-  severity: critical
-  title: '[rfe] Renewable Application Credentials'
-- assigned_to: stevemar
-  number: 479
-  reporter: stevemar
-  severity: medium
-  title: Policy names need to be updated for consistency
-- assigned_to: cmurphy
-  number: 851
-  reporter: lbragtad
-  severity: critical
-  title: /v3/users is unproportionally slow
-- assigned_to: cmurphy
-  number: 877
-  reporter: mdrnstm
-  severity: critical
-  title: 'RFE: keystone-manage CLI to allow using syslog & specific
-    log files'
-- assigned_to: dolphm
-  number: 498
-  reporter: lbragtad
-  severity: low
-  title: Lack of documentation for role inheritance
-- assigned_to: stevemar
-  number: 696
-  reporter: stevemar
-  severity: high
-  title: Create OAUTH request token gives 401 error with admin
-    endpoint
-- assigned_to: stevemar
-  number: 736
-  reporter: stevemar
-  severity: medium
-  title: Mapping a federated user to a user does not return role
-    assignments
-- assigned_to: lbragtad
-  number: 547
-  reporter: mdrnstm
-  severity: high
   title: Lack of documentation for role permutations and possibilities
 - assigned_to: mdrnstm
-  number: 424
-  reporter: mdrnstm
-  severity: medium
-  title: cache guide is out of date
-- assigned_to: mdrnstm
-  number: 788
+  number: 97
+  reporter: lbragtad
+  severity: low
+  title: Federation Protocol saml2 fails on Rocky
+- assigned_to: dolphm
+  number: 199
   reporter: stevemar
-  severity: medium
-  title: 'keystone (stein), python3, and postgresql: hex in database'
+  severity: critical
+  title: policy cloudsample checks on is_admin_project
+- assigned_to: cmurphy
+  number: 585
+  reporter: lbragtad
+  severity: low
+  title: 'RFE: keystone-manage CLI to allow using syslog & specific
+    log files'
+- assigned_to: mdrnstm
+  number: 118
+  reporter: cmurphy
+  severity: low
+  title: keystone-manage db_sync fails with MariaDB 10.3
 - assigned_to: lbragtad
-  number: 11
+  number: 95
   reporter: dolphm
   severity: critical
-  title: policy.v3cloudsample.json does not allow domain admin
-    role assignments
+  title: 'RFE: keystone-manage CLI to allow using syslog & specific
+    log files'
+- assigned_to: lbragtad
+  number: 152
+  reporter: stevemar
+  severity: medium
+  title: '[rfe] Renewable Application Credentials'
+- assigned_to: lbragtad
+  number: 415
+  reporter: lbragtad
+  severity: critical
+  title: Zero-downtime upgrades lead to token validation failures
+- assigned_to: cmurphy
+  number: 36
+  reporter: lbragtad
+  severity: low
+  title: '[rfe] Renewable Application Credentials'
+- assigned_to: cmurphy
+  number: 362
+  reporter: cmurphy
+  severity: medium
+  title: Enhance PCI-DSS compliance documentation
+- assigned_to: stevemar
+  number: 557
+  reporter: mdrnstm
+  severity: high
+  title: Zero-downtime upgrades lead to token validation failures
+- assigned_to: mdrnstm
+  number: 239
+  reporter: cmurphy
+  severity: critical
+  title: User cannot list their own trusts
