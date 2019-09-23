@@ -79,10 +79,61 @@
                             
                                 <tr>
                                     <td>
-                                        432
+                                        55
                                     </td>
                                     <td>
-                                        /v3/users is unproportionally slow
+                                        User cannot list their own trusts
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">1</span>
+                                            low
+                                        
+                                    </td>
+                                    <td>stevemar</td>
+                                    <td>mdrnstm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        403
+                                    </td>
+                                    <td>
+                                        [rfe] Renewable Application Credentials
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
+                                        
+                                    </td>
+                                    <td>stevemar</td>
+                                    <td>dolphm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        887
+                                    </td>
+                                    <td>
+                                        Dependency between subsystems at the DB layer
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">1</span>
+                                            low
+                                        
+                                    </td>
+                                    <td>cmurphy</td>
+                                    <td>dolphm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        339
+                                    </td>
+                                    <td>
+                                        oauth login silently ignores scope
                                     </td>
                                     <td>
                                         
@@ -92,82 +143,14 @@
                                         
                                     </td>
                                     <td>mdrnstm</td>
-                                    <td>lbragtad</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        537
-                                    </td>
-                                    <td>
-                                        keystone tests fail scope checking
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            high
-                                        
-                                    </td>
-                                    <td>dolphm</td>
-                                    <td>lbragtad</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        463
-                                    </td>
-                                    <td>
-                                        policy cloudsample checks on is_admin_project
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            high
-                                        
-                                    </td>
-                                    <td>mdrnstm</td>
                                     <td>cmurphy</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        245
+                                        958
                                     </td>
                                     <td>
                                         The v3 role API should account for different scopes
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>stevemar</td>
-                                    <td>stevemar</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        215
-                                    </td>
-                                    <td>
-                                        Keystone ldap tree_dn does not support Chinese
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>dolphm</td>
-                                    <td>dolphm</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        760
-                                    </td>
-                                    <td>
-                                        system scope does not work for the service which use project endpoint
                                     </td>
                                     <td>
                                         
@@ -176,15 +159,15 @@
                                             low
                                         
                                     </td>
-                                    <td>lbragtad</td>
                                     <td>stevemar</td>
+                                    <td>cmurphy</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        724
+                                        350
                                     </td>
                                     <td>
-                                        Self-service policies for credential APIs are broken in stable/rocky
+                                        Moving/disabling LDAP users break Keystone queries depending on role ID
                                     </td>
                                     <td>
                                         
@@ -193,12 +176,114 @@
                                             high
                                         
                                     </td>
-                                    <td>lbragtad</td>
+                                    <td>dolphm</td>
+                                    <td>mdrnstm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        412
+                                    </td>
+                                    <td>
+                                        The v3 grant API should account for different scopes
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">1</span>
+                                            medium
+                                        
+                                    </td>
+                                    <td>stevemar</td>
                                     <td>dolphm</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        234
+                                        160
+                                    </td>
+                                    <td>
+                                        Zero-downtime upgrades lead to token validation failures
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
+                                        
+                                    </td>
+                                    <td>mdrnstm</td>
+                                    <td>lbragtad</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        430
+                                    </td>
+                                    <td>
+                                        LDAP backend should support python-ldap trace logging
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
+                                        
+                                    </td>
+                                    <td>cmurphy</td>
+                                    <td>lbragtad</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        598
+                                    </td>
+                                    <td>
+                                        /v3/users is unproportionally slow
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
+                                        
+                                    </td>
+                                    <td>lbragtad</td>
+                                    <td>mdrnstm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        885
+                                    </td>
+                                    <td>
+                                        Lack of documentation for role permutations and possibilities
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
+                                        
+                                    </td>
+                                    <td>mdrnstm</td>
+                                    <td>stevemar</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        40
+                                    </td>
+                                    <td>
+                                        Federation Protocol saml2 fails on Rocky
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
+                                        
+                                    </td>
+                                    <td>stevemar</td>
+                                    <td>dolphm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        517
                                     </td>
                                     <td>
                                         [rfe] Renewable Application Credentials
@@ -210,148 +295,12 @@
                                             medium
                                         
                                     </td>
-                                    <td>mdrnstm</td>
-                                    <td>dolphm</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        119
-                                    </td>
-                                    <td>
-                                        Dependency between subsystems at the DB layer
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>mdrnstm</td>
-                                    <td>dolphm</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        295
-                                    </td>
-                                    <td>
-                                        Create OAUTH request token gives 401 error with admin endpoint
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            low
-                                        
-                                    </td>
-                                    <td>stevemar</td>
-                                    <td>lbragtad</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        129
-                                    </td>
-                                    <td>
-                                        RFE: keystone-manage CLI to allow using syslog & specific log files
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>stevemar</td>
                                     <td>cmurphy</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        705
-                                    </td>
-                                    <td>
-                                        Dependency between subsystems at the DB layer
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>dolphm</td>
-                                    <td>stevemar</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        400
-                                    </td>
-                                    <td>
-                                        cannot use trusts with federated users
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            medium
-                                        
-                                    </td>
-                                    <td>stevemar</td>
                                     <td>lbragtad</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        770
-                                    </td>
-                                    <td>
-                                        Documentation builds failing with Sphinx 1.7.5
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            low
-                                        
-                                    </td>
-                                    <td>lbragtad</td>
-                                    <td>dolphm</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        256
-                                    </td>
-                                    <td>
-                                        Upgrade to Ocata: Keystone Intermittent Missing options Key
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>cmurphy</td>
-                                    <td>mdrnstm</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        225
-                                    </td>
-                                    <td>
-                                        keystone tests fail scope checking
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            medium
-                                        
-                                    </td>
-                                    <td>dolphm</td>
-                                    <td>stevemar</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        760
+                                        154
                                     </td>
                                     <td>
                                         Forbid invalid operations in expand, migrate, and contract repositories
@@ -363,97 +312,12 @@
                                             low
                                         
                                     </td>
-                                    <td>cmurphy</td>
-                                    <td>stevemar</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        284
-                                    </td>
-                                    <td>
-                                        Create OAUTH request token gives 401 error with admin endpoint
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            medium
-                                        
-                                    </td>
                                     <td>mdrnstm</td>
-                                    <td>cmurphy</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        202
-                                    </td>
-                                    <td>
-                                        Logs filled with unnecessary policy deprecation warnings
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            high
-                                        
-                                    </td>
-                                    <td>mdrnstm</td>
-                                    <td>lbragtad</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        855
-                                    </td>
-                                    <td>
-                                        RFE: keystone-manage CLI to allow using syslog & specific log files
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            high
-                                        
-                                    </td>
-                                    <td>mdrnstm</td>
-                                    <td>mdrnstm</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        861
-                                    </td>
-                                    <td>
-                                        Federation Protocol saml2 fails on Rocky
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
                                     <td>dolphm</td>
-                                    <td>cmurphy</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        722
-                                    </td>
-                                    <td>
-                                        Federation Protocol saml2 fails on Rocky
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            medium
-                                        
-                                    </td>
-                                    <td>cmurphy</td>
-                                    <td>lbragtad</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        175
+                                        818
                                     </td>
                                     <td>
                                         Upgrade to Ocata: Keystone Intermittent Missing options Key
@@ -462,143 +326,41 @@
                                         
                                             <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
                                             <span style="display: none; visibility: hidden;">1</span>
-                                            high
-                                        
-                                    </td>
-                                    <td>dolphm</td>
-                                    <td>cmurphy</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        691
-                                    </td>
-                                    <td>
-                                        The v3 role API should account for different scopes
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>dolphm</td>
-                                    <td>lbragtad</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        60
-                                    </td>
-                                    <td>
-                                        Dependency between subsystems at the DB layer
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
                                             low
                                         
                                     </td>
-                                    <td>cmurphy</td>
-                                    <td>cmurphy</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        198
-                                    </td>
-                                    <td>
-                                        User cannot list their own trusts
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>mdrnstm</td>
-                                    <td>cmurphy</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        373
-                                    </td>
-                                    <td>
-                                        keystone tests fail scope checking
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            medium
-                                        
-                                    </td>
+                                    <td>lbragtad</td>
                                     <td>stevemar</td>
-                                    <td>cmurphy</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        673
+                                        636
                                     </td>
                                     <td>
-                                        RFE: Whitelisting (opt-in) users/projects/domains for PCI compliance
+                                        The v3 grant API should account for different scopes
                                     </td>
                                     <td>
                                         
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            medium
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
                                         
                                     </td>
-                                    <td>lbragtad</td>
                                     <td>cmurphy</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        444
-                                    </td>
-                                    <td>
-                                        LDAP backend should support python-ldap trace logging
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            high
-                                        
-                                    </td>
-                                    <td>lbragtad</td>
                                     <td>dolphm</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        646
+                                        650
                                     </td>
                                     <td>
-                                        Documentation builds failing with Sphinx 1.7.5
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            high
-                                        
-                                    </td>
-                                    <td>mdrnstm</td>
-                                    <td>lbragtad</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        258
-                                    </td>
-                                    <td>
-                                        /v3/users is unproportionally slow
+                                        Logs filled with unnecessary policy deprecation warnings
                                     </td>
                                     <td>
                                         
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            low
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
                                         
                                     </td>
                                     <td>mdrnstm</td>
@@ -606,27 +368,10 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        935
+                                        705
                                     </td>
                                     <td>
-                                        Lack of documentation for role inheritance
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">1</span>
-                                            low
-                                        
-                                    </td>
-                                    <td>cmurphy</td>
-                                    <td>cmurphy</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        280
-                                    </td>
-                                    <td>
-                                        policy.v3cloudsample.json does not allow domain admin role assignments
+                                        Moving/disabling LDAP users break Keystone queries depending on role ID
                                     </td>
                                     <td>
                                         
@@ -635,29 +380,12 @@
                                             critical
                                         
                                     </td>
-                                    <td>stevemar</td>
-                                    <td>cmurphy</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        976
-                                    </td>
-                                    <td>
-                                        User cannot list their own trusts
-                                    </td>
-                                    <td>
-                                        
-                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
-                                            <span style="display: none; visibility: hidden;">0</span>
-                                            critical
-                                        
-                                    </td>
-                                    <td>cmurphy</td>
+                                    <td>lbragtad</td>
                                     <td>mdrnstm</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        657
+                                        780
                                     </td>
                                     <td>
                                         keystone tests fail scope checking
@@ -669,15 +397,15 @@
                                             high
                                         
                                     </td>
-                                    <td>mdrnstm</td>
+                                    <td>lbragtad</td>
                                     <td>lbragtad</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        733
+                                        825
                                     </td>
                                     <td>
-                                        /v3/users is unproportionally slow
+                                        User cannot list their own trusts
                                     </td>
                                     <td>
                                         
@@ -686,7 +414,92 @@
                                             medium
                                         
                                     </td>
+                                    <td>stevemar</td>
                                     <td>lbragtad</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        156
+                                    </td>
+                                    <td>
+                                        Policy names need to be updated for consistency
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">1</span>
+                                            low
+                                        
+                                    </td>
+                                    <td>stevemar</td>
+                                    <td>mdrnstm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        111
+                                    </td>
+                                    <td>
+                                        cannot use trusts with federated users
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-warning-sign red" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">0</span>
+                                            critical
+                                        
+                                    </td>
+                                    <td>stevemar</td>
+                                    <td>mdrnstm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        307
+                                    </td>
+                                    <td>
+                                        Federation Protocol saml2 fails on Rocky
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">1</span>
+                                            high
+                                        
+                                    </td>
+                                    <td>cmurphy</td>
+                                    <td>dolphm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        365
+                                    </td>
+                                    <td>
+                                        Moving/disabling LDAP users break Keystone queries depending on role ID
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">1</span>
+                                            high
+                                        
+                                    </td>
+                                    <td>stevemar</td>
+                                    <td>dolphm</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        640
+                                    </td>
+                                    <td>
+                                        [rfe] Renewable Application Credentials
+                                    </td>
+                                    <td>
+                                        
+                                            <span class="icon glyphicon glyphicon-check green" aria-hidden="true"></span>
+                                            <span style="display: none; visibility: hidden;">1</span>
+                                            high
+                                        
+                                    </td>
+                                    <td>dolphm</td>
                                     <td>mdrnstm</td>
                                 </tr>
                         </tbody>
