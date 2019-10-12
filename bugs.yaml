@@ -1,71 +1,79 @@
 bugs:
-- assigned_to: stevemar
-  number: 363
-  reporter: stevemar
-  severity: high
-  title: Create OAUTH request token gives 401 error with admin
-    endpoint
-- assigned_to: dolphm
-  number: 218
-  reporter: stevemar
-  severity: medium
-  title: keystone-manage db_sync fails with MariaDB 10.3
 - assigned_to: lbragtad
-  number: 923
+  number: 368
+  reporter: lbragtad
+  severity: low
+  title: keystone-manage db_sync fails with MariaDB 10.3
+- assigned_to: mdrnstm
+  number: 802
   reporter: dolphm
   severity: medium
-  title: Self-service policies for credential APIs are broken
-    in stable/rocky
-- assigned_to: dolphm
-  number: 191
-  reporter: stevemar
+  title: Policy names need to be updated for consistency
+- assigned_to: lbragtad
+  number: 684
+  reporter: dolphm
   severity: critical
-  title: cache guide is out of date
-- assigned_to: dolphm
-  number: 154
-  reporter: stevemar
-  severity: critical
-  title: Dependency between subsystems at the DB layer
+  title: Moving/disabling LDAP users break Keystone queries depending
+    on role ID
 - assigned_to: cmurphy
-  number: 186
+  number: 3
+  reporter: cmurphy
+  severity: critical
+  title: Enhance PCI-DSS compliance documentation
+- assigned_to: cmurphy
+  number: 533
+  reporter: stevemar
+  severity: critical
+  title: system scope does not work for the service which use
+    project endpoint
+- assigned_to: cmurphy
+  number: 598
+  reporter: cmurphy
+  severity: low
+  title: Documentation builds failing with Sphinx 1.7.5
+- assigned_to: dolphm
+  number: 46
+  reporter: lbragtad
+  severity: critical
+  title: Enhance PCI-DSS compliance documentation
+- assigned_to: dolphm
+  number: 779
   reporter: mdrnstm
-  severity: high
-  title: Mapping a federated user to a user does not return role
-    assignments
+  severity: low
+  title: /v3/users is unproportionally slow
 - assigned_to: mdrnstm
+  number: 332
+  reporter: lbragtad
+  severity: low
+  title: Lack of documentation for role permutations and possibilities
+- assigned_to: cmurphy
+  number: 320
+  reporter: dolphm
+  severity: critical
+  title: Upgrade procedure performance issues
+- assigned_to: dolphm
   number: 556
   reporter: stevemar
   severity: critical
-  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
-    Key'
-- assigned_to: dolphm
-  number: 890
-  reporter: stevemar
-  severity: critical
-  title: able to validate a Fernet token with garbage at the end
-- assigned_to: dolphm
-  number: 877
+  title: LDAP backend should support python-ldap trace logging
+- assigned_to: stevemar
+  number: 933
   reporter: cmurphy
-  severity: medium
-  title: Lack of documentation for role inheritance
+  severity: critical
+  title: policy cloudsample checks on is_admin_project
 - assigned_to: mdrnstm
-  number: 376
-  reporter: lbragtad
-  severity: high
-  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
-    Key'
-- assigned_to: stevemar
-  number: 945
-  reporter: mdrnstm
-  severity: medium
-  title: keystone upgrade fails q->r oslo.log requirement to low
-- assigned_to: stevemar
-  number: 353
-  reporter: lbragtad
-  severity: medium
-  title: cannot use trusts with federated users
-- assigned_to: dolphm
-  number: 551
-  reporter: cmurphy
+  number: 193
+  reporter: dolphm
   severity: critical
-  title: Documentation builds failing with Sphinx 1.7.5
+  title: Logs filled with unnecessary policy deprecation warnings
+- assigned_to: stevemar
+  number: 500
+  reporter: dolphm
+  severity: medium
+  title: policy cloudsample checks on is_admin_project
+- assigned_to: stevemar
+  number: 71
+  reporter: mdrnstm
+  severity: critical
+  title: system scope does not work for the service which use
+    project endpoint
