@@ -1,79 +1,90 @@
 bugs:
-- assigned_to: lbragtad
-  number: 368
-  reporter: lbragtad
-  severity: low
+- assigned_to: dolphm
+  number: 720
+  reporter: dolphm
+  severity: high
   title: keystone-manage db_sync fails with MariaDB 10.3
-- assigned_to: mdrnstm
-  number: 802
-  reporter: dolphm
+- assigned_to: dolphm
+  number: 249
+  reporter: mdrnstm
   severity: medium
-  title: Policy names need to be updated for consistency
-- assigned_to: lbragtad
-  number: 684
-  reporter: dolphm
-  severity: critical
-  title: Moving/disabling LDAP users break Keystone queries depending
-    on role ID
-- assigned_to: cmurphy
-  number: 3
-  reporter: cmurphy
-  severity: critical
-  title: Enhance PCI-DSS compliance documentation
-- assigned_to: cmurphy
-  number: 533
-  reporter: stevemar
-  severity: critical
+  title: keystone-manage db_sync fails with MariaDB 10.3
+- assigned_to: stevemar
+  number: 983
+  reporter: lbragtad
+  severity: high
   title: system scope does not work for the service which use
     project endpoint
-- assigned_to: cmurphy
-  number: 598
-  reporter: cmurphy
-  severity: low
-  title: Documentation builds failing with Sphinx 1.7.5
-- assigned_to: dolphm
-  number: 46
-  reporter: lbragtad
-  severity: critical
-  title: Enhance PCI-DSS compliance documentation
-- assigned_to: dolphm
-  number: 779
-  reporter: mdrnstm
-  severity: low
-  title: /v3/users is unproportionally slow
-- assigned_to: mdrnstm
-  number: 332
-  reporter: lbragtad
-  severity: low
-  title: Lack of documentation for role permutations and possibilities
-- assigned_to: cmurphy
-  number: 320
-  reporter: dolphm
-  severity: critical
-  title: Upgrade procedure performance issues
-- assigned_to: dolphm
-  number: 556
-  reporter: stevemar
-  severity: critical
-  title: LDAP backend should support python-ldap trace logging
 - assigned_to: stevemar
-  number: 933
-  reporter: cmurphy
-  severity: critical
-  title: policy cloudsample checks on is_admin_project
-- assigned_to: mdrnstm
-  number: 193
+  number: 817
   reporter: dolphm
+  severity: high
+  title: Keystone as a SAML IdP does not work when mod_auth_mellon
+    is SP
+- assigned_to: mdrnstm
+  number: 646
+  reporter: cmurphy
   severity: critical
   title: Logs filled with unnecessary policy deprecation warnings
 - assigned_to: stevemar
-  number: 500
-  reporter: dolphm
-  severity: medium
-  title: policy cloudsample checks on is_admin_project
+  number: 88
+  reporter: lbragtad
+  severity: low
+  title: Federation Protocol saml2 fails on Rocky
+- assigned_to: dolphm
+  number: 992
+  reporter: stevemar
+  severity: low
+  title: Policy names need to be updated for consistency
 - assigned_to: stevemar
-  number: 71
+  number: 950
+  reporter: mdrnstm
+  severity: medium
+  title: keystone tests fail scope checking
+- assigned_to: dolphm
+  number: 109
+  reporter: cmurphy
+  severity: critical
+  title: keystone upgrade fails q->r oslo.log requirement to low
+- assigned_to: dolphm
+  number: 415
+  reporter: stevemar
+  severity: medium
+  title: oauth login silently ignores scope
+- assigned_to: dolphm
+  number: 691
   reporter: mdrnstm
   severity: critical
-  title: system scope does not work for the service which use
-    project endpoint
+  title: able to validate a Fernet token with garbage at the end
+- assigned_to: lbragtad
+  number: 622
+  reporter: dolphm
+  severity: low
+  title: policy.v3cloudsample.json does not allow domain admin
+    role assignments
+- assigned_to: dolphm
+  number: 966
+  reporter: lbragtad
+  severity: critical
+  title: keystone tests fail scope checking
+- assigned_to: dolphm
+  number: 123
+  reporter: mdrnstm
+  severity: low
+  title: The ec2 credential API should account for different scopes
+- assigned_to: stevemar
+  number: 103
+  reporter: mdrnstm
+  severity: low
+  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
+    Key'
+- assigned_to: lbragtad
+  number: 140
+  reporter: lbragtad
+  severity: medium
+  title: The v3 role API should account for different scopes
+- assigned_to: mdrnstm
+  number: 235
+  reporter: cmurphy
+  severity: low
+  title: Keystone ldap tree_dn does not support Chinese
