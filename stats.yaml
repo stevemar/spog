@@ -1,29 +1,9 @@
 stats:
-- average: 0.52
-  hits: 67
-  homers: 27
-  rbis: 57
-- average: 0.92
-  hits: 78
+- average: 0.37
+  hits: 12
   homers: 0
-  rbis: 49
-- average: 0.99
-  hits: 49
-  homers: 30
-  rbis: 43
-- average: 0.04
-  hits: 20
-  homers: 4
-  rbis: 11
-- average: 0.54
-  hits: 76
-  homers: 1
-  rbis: 6
-- average: 0.36
-  hits: 52
-  homers: 14
-  rbis: 39
-- average: 0.42
-  hits: 18
-  homers: 1
-  rbis: 52
+  rbis: 14
+- average: 0.25
+  hits: 29
+  homers: 23
+  rbis: 21
