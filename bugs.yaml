@@ -1,172 +1,73 @@
 bugs:
-- assigned_to: lbragtad
-  number: 753
-  reporter: stevemar
-  severity: high
-  title: Zero-downtime upgrades lead to token validation failures
-- assigned_to: stevemar
-  number: 102
-  reporter: stevemar
-  severity: high
-  title: cache guide is out of date
-- assigned_to: mdrnstm
-  number: 411
-  reporter: stevemar
-  severity: critical
-  title: cannot use trusts with federated users
-- assigned_to: lbragtad
-  number: 540
-  reporter: dolphm
-  severity: critical
-  title: Zero-downtime upgrades lead to token validation failures
 - assigned_to: cmurphy
-  number: 633
-  reporter: stevemar
-  severity: medium
-  title: Documentation builds failing with Sphinx 1.7.5
-- assigned_to: mdrnstm
-  number: 188
+  number: 408
   reporter: dolphm
-  severity: high
-  title: able to validate a Fernet token with garbage at the end
-- assigned_to: dolphm
-  number: 535
-  reporter: cmurphy
-  severity: medium
-  title: '[rfe] Renewable Application Credentials'
-- assigned_to: lbragtad
-  number: 866
-  reporter: cmurphy
-  severity: high
-  title: keystone tests fail scope checking
-- assigned_to: lbragtad
-  number: 522
-  reporter: dolphm
-  severity: medium
-  title: able to validate a Fernet token with garbage at the end
-- assigned_to: lbragtad
-  number: 723
-  reporter: mdrnstm
-  severity: low
-  title: 'keystone (stein), python3, and postgresql: hex in database'
-- assigned_to: lbragtad
-  number: 760
-  reporter: dolphm
-  severity: critical
-  title: policy cloudsample checks on is_admin_project
-- assigned_to: stevemar
-  number: 155
-  reporter: lbragtad
-  severity: critical
-  title: Logs filled with unnecessary policy deprecation warnings
-- assigned_to: cmurphy
-  number: 969
-  reporter: lbragtad
-  severity: high
-  title: Mapping a federated user to a user does not return role
-    assignments
-- assigned_to: stevemar
-  number: 399
-  reporter: lbragtad
   severity: high
   title: User cannot list their own trusts
 - assigned_to: cmurphy
-  number: 997
-  reporter: mdrnstm
-  severity: low
-  title: Lack of documentation for role permutations and possibilities
-- assigned_to: lbragtad
-  number: 5
-  reporter: mdrnstm
-  severity: critical
-  title: cache guide is out of date
-- assigned_to: mdrnstm
-  number: 811
-  reporter: dolphm
-  severity: medium
-  title: 'keystone (stein), python3, and postgresql: hex in database'
-- assigned_to: dolphm
-  number: 200
-  reporter: mdrnstm
-  severity: medium
-  title: 'Upgrade to Ocata: Keystone Intermittent Missing options
-    Key'
-- assigned_to: mdrnstm
-  number: 671
-  reporter: mdrnstm
-  severity: critical
-  title: Keystone as a SAML IdP does not work when mod_auth_mellon
-    is SP
-- assigned_to: mdrnstm
-  number: 606
-  reporter: dolphm
-  severity: critical
-  title: Zero-downtime upgrades lead to token validation failures
-- assigned_to: mdrnstm
-  number: 662
+  number: 424
   reporter: cmurphy
   severity: low
-  title: '[rfe] Renewable Application Credentials'
-- assigned_to: cmurphy
-  number: 742
-  reporter: stevemar
-  severity: medium
-  title: Policy names need to be updated for consistency
-- assigned_to: lbragtad
-  number: 108
-  reporter: lbragtad
-  severity: high
-  title: Enhance PCI-DSS compliance documentation
-- assigned_to: cmurphy
-  number: 643
-  reporter: stevemar
-  severity: low
+  title: LDAP backend should support python-ldap trace logging
+- assigned_to: stevemar
+  number: 543
+  reporter: dolphm
+  severity: critical
   title: Forbid invalid operations in expand, migrate, and contract
     repositories
-- assigned_to: lbragtad
-  number: 365
+- assigned_to: mdrnstm
+  number: 283
+  reporter: mdrnstm
+  severity: high
+  title: LDAP backend should support python-ldap trace logging
+- assigned_to: stevemar
+  number: 890
   reporter: cmurphy
   severity: high
-  title: Dependency between subsystems at the DB layer
-- assigned_to: stevemar
-  number: 548
-  reporter: lbragtad
-  severity: medium
-  title: Lack of documentation for role permutations and possibilities
-- assigned_to: lbragtad
-  number: 133
-  reporter: dolphm
-  severity: low
+  title: Federation Protocol saml2 fails on Rocky
+- assigned_to: dolphm
+  number: 438
+  reporter: stevemar
+  severity: high
   title: 'Upgrade to Ocata: Keystone Intermittent Missing options
     Key'
-- assigned_to: dolphm
-  number: 367
-  reporter: mdrnstm
-  severity: critical
-  title: cannot use trusts with federated users
 - assigned_to: cmurphy
-  number: 283
-  reporter: stevemar
-  severity: medium
-  title: keystone upgrade fails q->r oslo.log requirement to low
-- assigned_to: mdrnstm
-  number: 625
-  reporter: lbragtad
-  severity: medium
-  title: Upgrade procedure performance issues
-- assigned_to: lbragtad
-  number: 142
-  reporter: stevemar
-  severity: critical
-  title: keystone upgrade fails q->r oslo.log requirement to low
-- assigned_to: mdrnstm
-  number: 562
-  reporter: mdrnstm
-  severity: low
-  title: Create OAUTH request token gives 401 error with admin
-    endpoint
-- assigned_to: stevemar
-  number: 483
+  number: 839
   reporter: dolphm
+  severity: critical
+  title: policy cloudsample checks on is_admin_project
+- assigned_to: cmurphy
+  number: 948
+  reporter: mdrnstm
+  severity: critical
+  title: Federation Protocol saml2 fails on Rocky
+- assigned_to: lbragtad
+  number: 919
+  reporter: cmurphy
+  severity: low
+  title: Upgrade procedure performance issues
+- assigned_to: stevemar
+  number: 988
+  reporter: cmurphy
+  severity: critical
+  title: Policy names need to be updated for consistency
+- assigned_to: dolphm
+  number: 777
+  reporter: stevemar
   severity: high
+  title: Policy names need to be updated for consistency
+- assigned_to: cmurphy
+  number: 724
+  reporter: mdrnstm
+  severity: critical
+  title: Lack of documentation for role inheritance
+- assigned_to: mdrnstm
+  number: 874
+  reporter: stevemar
+  severity: low
   title: Logs filled with unnecessary policy deprecation warnings
+- assigned_to: dolphm
+  number: 340
+  reporter: cmurphy
+  severity: medium
+  title: Zero-downtime upgrades lead to token validation failures
