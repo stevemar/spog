@@ -1,92 +1,72 @@
 bugs:
-- assigned_to: cmurphy
-  number: 12
-  reporter: cmurphy
+- assigned_to: dolphm
+  number: 812
+  reporter: lbragtad
   severity: medium
-  title: Self-service policies for credential APIs are broken
-    in stable/rocky
+  title: The ec2 credential API should account for different scopes
 - assigned_to: lbragtad
-  number: 345
-  reporter: cmurphy
-  severity: low
-  title: cannot use trusts with federated users
-- assigned_to: cmurphy
-  number: 148
-  reporter: mdrnstm
-  severity: high
-  title: oauth login silently ignores scope
-- assigned_to: lbragtad
-  number: 497
+  number: 956
   reporter: lbragtad
-  severity: low
-  title: system scope does not work for the service which use
-    project endpoint
-- assigned_to: mdrnstm
-  number: 227
-  reporter: stevemar
-  severity: high
-  title: Forbid invalid operations in expand, migrate, and contract
-    repositories
-- assigned_to: mdrnstm
-  number: 799
-  reporter: dolphm
   severity: critical
-  title: The v3 grant API should account for different scopes
-- assigned_to: stevemar
-  number: 206
-  reporter: lbragtad
+  title: Dependency between subsystems at the DB layer
+- assigned_to: cmurphy
+  number: 22
+  reporter: mdrnstm
   severity: low
-  title: The v3 role API should account for different scopes
-- assigned_to: lbragtad
-  number: 947
-  reporter: stevemar
-  severity: low
-  title: Moving/disabling LDAP users break Keystone queries depending
-    on role ID
+  title: /v3/users is unproportionally slow
+- assigned_to: dolphm
+  number: 505
+  reporter: mdrnstm
+  severity: critical
+  title: able to validate a Fernet token with garbage at the end
 - assigned_to: stevemar
-  number: 703
+  number: 843
   reporter: lbragtad
   severity: high
   title: Keystone ldap tree_dn does not support Chinese
-- assigned_to: mdrnstm
-  number: 225
+- assigned_to: stevemar
+  number: 724
   reporter: dolphm
   severity: medium
-  title: able to validate a Fernet token with garbage at the end
-- assigned_to: stevemar
-  number: 619
-  reporter: stevemar
-  severity: medium
-  title: LDAP backend should support python-ldap trace logging
-- assigned_to: cmurphy
-  number: 314
-  reporter: stevemar
-  severity: low
-  title: cannot use trusts with federated users
+  title: policy.v3cloudsample.json does not allow domain admin
+    role assignments
 - assigned_to: mdrnstm
-  number: 591
-  reporter: lbragtad
-  severity: low
-  title: '[rfe] Renewable Application Credentials'
-- assigned_to: dolphm
-  number: 848
-  reporter: stevemar
-  severity: low
-  title: Upgrade procedure performance issues
-- assigned_to: dolphm
-  number: 753
+  number: 598
   reporter: cmurphy
-  severity: medium
-  title: 'RFE: keystone-manage CLI to allow using syslog & specific
-    log files'
+  severity: high
+  title: Self-service policies for credential APIs are broken
+    in stable/rocky
+- assigned_to: stevemar
+  number: 483
+  reporter: cmurphy
+  severity: critical
+  title: Mapping a federated user to a user does not return role
+    assignments
+- assigned_to: stevemar
+  number: 326
+  reporter: stevemar
+  severity: critical
+  title: policy.v3cloudsample.json does not allow domain admin
+    role assignments
 - assigned_to: lbragtad
-  number: 857
+  number: 62
   reporter: mdrnstm
   severity: critical
-  title: 'keystone (stein), python3, and postgresql: hex in database'
+  title: Federation Protocol saml2 fails on Rocky
 - assigned_to: cmurphy
-  number: 848
-  reporter: mdrnstm
-  severity: high
+  number: 808
+  reporter: lbragtad
+  severity: low
   title: 'RFE: Whitelisting (opt-in) users/projects/domains for
     PCI compliance'
+- assigned_to: lbragtad
+  number: 846
+  reporter: stevemar
+  severity: medium
+  title: Create OAUTH request token gives 401 error with admin
+    endpoint
+- assigned_to: dolphm
+  number: 535
+  reporter: stevemar
+  severity: high
+  title: oauth login silently ignores scope
